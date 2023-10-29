@@ -1,0 +1,481 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Preloader section Start */
+
+/* Preloader Styles */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* You can adjust the background color and opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .loadingio-spinner-blocks-bqgvxw8sn2e {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #f1f2f3; /* Background color for the preloader */
+  }
+  
+  .ldio-qtgb10w7qin {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+  }
+  
+  .ldio-qtgb10w7qin div {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    background: #42a610; /* Color of the animated blocks */
+    animation: ldio-qtgb10w7qin 1s linear infinite;
+  }
+  
+  @keyframes ldio-qtgb10w7qin {
+    0% { background: #1753df }
+    12.5% { background: #1753df }
+    12.625% { background: #42a610 }
+    100% { background: #42a610 }
+  }
+  /* End Preloader Styles */
+  
+  
+  
+  /* Preloader section End */
+
+
+/* Header Area style start*/
+
+.mainHeader{
+    background-color: rgb(228, 228, 228);
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.mobileHeaderMainArea{
+    display: none;
+}
+
+.logo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.cardcontrol{
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.card-body {
+
+    min-height: 0px;
+    padding: 0px!important;
+}
+
+ul.nav.nav-tabs.center-tabs {
+    padding-top: 20px;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tabs {
+
+    border-radius: 4px; 
+    padding: 0px;
+    text-align: center;
+
+}
+
+.center-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-right: 10px; 
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.nav-item a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-item a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+/* Add this to your existing CSS */
+.search {
+    padding-left: 75px;
+    padding-top: 15px;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search button {
+    background-color: #b80404;
+    color: #fff;
+    border: none;
+    font-family: lato;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer; 
+    margin-left: 20px;
+}   
+
+/*-----------------------------------------------------------------------*/
+
+/* Mobile Header Area style Start*/
+
+.mobile-containers{
+    display: none;
+}
+
+
+@media (max-width: 1199px) {
+  
+    .mobile-containers{
+        display: block;
+        background-color: #e9e9e9;
+    }
+
+
+    .heroRow1 {
+        padding: 30px 30px 30px 30px;
+        gap: 20px;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .heroRow2{
+        padding: 10px;
+           
+       }
+
+    .mainHeader{
+        display: none;
+    }
+
+
+.logoArea{
+
+    width: 33%;
+
+}
+
+.HeadermidArea{
+
+    width: 33%;
+
+}
+
+.HeaderBarArea{
+
+    width: 33%;
+    padding-top: 20px;
+    text-align: right;
+
+}
+.fa {
+
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+
+}
+
+
+
+}
+
+
+/* Header Area style end*/
+
+
+/*-----------------------------------------------------------------------*/
+
+/* Main Area start*/
+
+.mainArea{
+    padding: 40px 30px;
+    
+}
+.col-md-3{
+
+    padding-left: 0px;
+
+}
+.heroRow1{
+    padding: 30px 30px 30px 0px;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: left;
+}
+.heroRow2 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+
+.journalTitle{
+    font-family: lato;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.journalText{
+
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.JournalHeading{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        -webkit-line-clamp: 2;
+}
+
+.card-img-top{
+
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.secondSctionBlog{
+    padding: 20px 0px 0px 0px;
+}
+
+.jouranlGrid{
+
+ padding: 10px 20px;
+
+}
+
+/* "Read More" button and icon */
+.read-more {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#read-more-button {
+    background-color: transparent;
+    color: #000000;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#read-more-button i {
+    margin-left: 5px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+#read-more-button:hover {
+    background-color: transparent;
+    color: red;
+}
+
+.firstgrid{
+    padding-right: 15px;
+}
+
+.moreBlog {
+    text-align: center;
+}
+
+button.moreBlogButton {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid red;
+    background-color: #b80404;
+    color: white;
+}
+
+
+/* Main Area End*/
+
+/* Footer section Start */
+
+
+.site-footer {
+    background-color: #010101;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+.footer-logo {
+    width: 150px;
+}
+.logoArea{
+    padding-right: 0px;
+}
+
+.footerLevel{
+    padding: 0px;
+    font-family: lato;
+    font-size: 18px;
+
+}
+
+
+.logoArea p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.footer-row{
+    padding-left: 30px;
+}
+
+.footer-row ul {
+    list-style: none;
+}
+
+.footer-row ul li {
+    margin-bottom: 10px;
+}
+
+
+.footer-row a {
+    color: #fff;
+    text-decoration: none;
+}
+.copywritearea{
+    background-color: #b80404;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    color: white;
+    
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer-logo {
+        width: 100px; 
+    }
+
+    .logoArea p {
+        font-size: 12px; 
+    }
+
+    .footer-row ul {
+        padding: 0 20px; 
+    }
+
+/* Responsive styles for even smaller screens */
+
+@media screen and (max-width: 480px) {
+    .footer-logo {
+        width: 80px; 
+    }
+
+    .logoArea p {
+        font-size: 10px; 
+    }
+}
+}
+
+
+/* Footer section resposive Start */
+
+@media screen and (max-width: 1199px) {
+
+
+    .logoArea{
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .usefull_link1{
+        width: 100%;
+    }
+
+    .footer-row ul {
+
+      padding: 0px;
+    }
+
+
+
+}
+
+
+
+/* Footer section resposive End */
+
+
+
+
+
+/* Footer section End */
+
+/** Scroll to top section Start **/
+
+#scrolltotop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: none;
+
+}
+
+/** Scroll to top section End **/
